@@ -6,6 +6,14 @@ alias ll='ls -l'
 alias la='ls -al'
 alias -g G='| grep'
 alias -g M='| less'
+alias goas="cd /Users/mfh/as/"
+alias godev="cd /Users/mfh/as-dev/"
+alias svnup="svn up --ignore-externals"
+alias svnst="svn st --ignore-externals"
+alias ngconf="mate /usr/local/etc/nginx/nginx.conf"
+alias phpini="subl /usr/local/etc/php/5.4/php.ini"
+alias showHidden="defaults write com.apple.finder AppleShowAllFiles TRUE ; killall Finder"
+alias hideHidden="defaults write com.apple.finder AppleShowAllFiles FALSE ; killall Finder"
 
 # Git
 alias g='git'
