@@ -1,7 +1,20 @@
 tap thoughtbot/formulae
 install rcm
 install git
+install git-flow
 install vim
 install rbenv
 install rbenv-gem-rehash
 install ruby-build
+tap homebrew/dupes
+tap homebrew/php
+install php55 --without-apache --with-fpm --with-mysql
+install drush
+install nginx
+install node
+install openssl
+install phpunit
+install rabbitmq
+install sqlite
+install wkhtmltopdf
+install elasticsearch
