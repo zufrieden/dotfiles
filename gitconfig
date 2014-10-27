@@ -1,6 +1,6 @@
 [user]
-  name = Yann Lugrin
-  email = yann.lugrin@liquid-concept.ch
+  name = Marc Friederich
+  email = marc@antistatique.net
 
 [alias]
   co = checkout
@@ -23,6 +23,15 @@
 
 [apply]
   whitespace = fix
+
+[mergetool]
+  keepBackup = true
+
+[merge]
+  tool = opendiff
+
+[diff]
+  tool = opendiff
 
 [push]
   default = upstream
