@@ -6,7 +6,7 @@
 export ZSH=$HOME/.zsh
 
 # Set name of the theme to load.
-ZSH_THEME="yannlugrin"
+ZSH_THEME="robbyrussell"
 
 # load auto completion from homebrew pacakge
 if [ -d /usr/local/share/zsh/site-functions ]; then
@@ -50,8 +50,9 @@ bindkey "^E" end-of-line
 bindkey "^R" history-incremental-search-backward
 bindkey "^P" history-search-backward
 
-# use vim as the visual editor
-export VISUAL=vim
+# use subl as the visual editor
+export VISUAL="subl -w"
+export SVN_EDITOR=$VISUAL
 export EDITOR=$VISUAL
 
 # aliases
@@ -61,3 +62,8 @@ export EDITOR=$VISUAL
 if [ -f "$ZSH/themes/$ZSH_THEME.zsh-theme" ]; then
   source "$ZSH/themes/$ZSH_THEME.zsh-theme"
 fi
+
+# force UTF-8
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
