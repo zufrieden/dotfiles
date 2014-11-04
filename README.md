@@ -14,7 +14,7 @@ Git installed:
 
 Set zsh as your login shell:
 
-    chsh -s $(which zsh)
+    chsh -s /bin/zsh
 
 Install
 -------
